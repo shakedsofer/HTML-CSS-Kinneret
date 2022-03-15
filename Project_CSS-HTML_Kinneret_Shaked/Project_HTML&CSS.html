@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shaked</title>
+    <link href="StyleSheet1_Project.css" rel="stylesheet" />
+    
+</head>
+    
+<body>
+ 
+        <header id="up"></header>
+
+    <div id="background">
+        <div id="con">
+            <div id="logo">
+                <img src="Pictures/Logo.png" />
+            </div>
+
+            <nav>
+
+                <a href="https://www.google.co.il" id="links" target="_blank">Google</a>
+                <a href="https://github.com" id="links" target="_blank">Github</a>
+                <a href="https://stackoverflow.com" id="links" target="_blank">Stack overflow</a>
+                <a href="https://shakedswebsites.wixsite.com/catchapp" id="links" target="_blank">Surprise </a>
+
+
+            </nav>
+
+            <div id="PictureBackgroundSport">
+
+                <p>
+                    <h1><strong> כדור-יד </strong> </h1>
+
+
+
+                    כדוריד  הוא משחק כדור קבוצתי תחרותי.<br /> <b>במשחק משתתפות שתי קבוצות, בכל אחת מהן שישה שחקני שדה </b>ושוער אחד.<br />
+
+                    ולהגן<i> על שערה מפני הקבוצה היריבה </i>(בדומה לכדורגל). <br />
+                    תנועת הכדור במגרש בין השחקנים ובידי שחקן יחיד וכן זריקתו לשער, <br /> מתבצעות באמצעות הידיים (בדומה לכדורסל).<br />
+
+
+
+                </p>
+
+            </div>
+
+
+            <div id="Food">
+
+                <div id="list">
+                    <h3>מאכלים</h3>
+                    <ul>
+                        <li>פיצה </li>
+                        <li>המבורגר </li>
+                        <li>פסטה </li>
+                        <li>עוף </li>
+                    </ul>
+                </div>
+
+                <a href="https://www.mako.co.il/food-recipes/recipes_column-bread/recipe-df29cf2e4721731006.htm" target="_blank" /><img src="Pictures/פיצה.jpg" id="pizza" /></a>
+
+
+            </div>
+
+
+
+
+
+            <div id="PictureCars">
+
+                <a href="https://www.mazda.co.il/" target="_blank" title="מאזדה"><img src="Pictures/מאזדה.jpg" id="mazda" /> </a>
+                <a href="https://www.mercedes-benz.co.il/" target="_blank" title="מרצדס"> <img src="Pictures/מרצדס.jpg" id="mertzcar" />  </a>
+                <a href="https://www.bmw.co.il/he/index.html" target="_blank" title="BMW"> <img src="Pictures/BMW.jpg" id="bmw" />  </a>
+
+            </div>
+
+            <form action="https://localhost:44364/ShakedSubmitPage.html">
+                <!--קישור כדי שכל הפרטים מתחת יכללו ויעברו לדף הבא -->
+
+
+                <fieldset>
+                    <legend>תוספות</legend>
+                    <table>
+                        <input type="checkbox" value="זיתים ירוקים" name="זיתים ירוקים" />
+                        <label>זיתים ירוקים</label>
+                        &nbsp
+                        <input type="checkbox" value="עגבניות" name="עגבניות" />
+                        <label>עגבניות</label>
+                    </table>
+
+                    <br />
+                    <table>
+                        <input type="checkbox" value="בצל" name="בצל" />
+                        <label>בצל</label>
+                        &nbsp  &nbsp  &nbsp  &nbsp
+                        <input type="checkbox" value="פטריות" name="פטריות" />
+                        <label>פטריות</label>
+                    </table>
+
+                    <br />
+                    <table>
+                        <input type="checkbox" value="גבינה בולגרית" name="גבינה בולגרית">
+                        <label>גבינה בולגרית</label>
+                        &nbsp  
+                        <input type="checkbox" value="זיתים שחורים" name="זיתים שחורים" />
+                        <label>זיתים שחורים</label>
+                        <br />
+                    </table>
+                </fieldset>
+
+                <!--גט מציג למשתמש מצב דיפוטיבי לא חייב לכתוב -->
+                <!--פוסט מציג בכתובת מוסתר-->
+
+                <div id="order">
+
+                    <input type="radio" name="take" value="משלוח" /> <label>משלוח</label>
+                    <input type="radio" name="take" value="איסוף עצמי" /> <label>איסוף עצמי</label>
+                    <br />
+                    <input type="radio" name="size" value="איסוף" /><label>אישית</label>
+                    <input type="radio" name="size" value="משפחתית" /><label>משפחתית</label>
+                    <br /><br />
+                    <label>מספר פיצות:</label> <input type="number" max="10" min="1" value="number pizza" name="מספר פיצות" />
+                    <br />
+                    <label>מייל בבקשה:</label><input type="email" required name="מייל" />
+                    <br />
+
+                    <label>כתובת למשלוח:</label>
+                    <select>
+                        <option> טבריה</option>
+                        <option> בית שאן</option>
+                        <option>ירושלים </option>
+                        <option> תל אביב</option>
+                        <option>באר שבע  </option>
+                    </select>
+
+                    <br />
+                    <input type="submit" name="בצע הזמנה" value="בצע הזמנה " />
+
+
+                </div>
+            </form>
+
+
+
+            <footer>
+                <a href="#up">קישור לחלק העליון של הדף</a>
+                <br />
+
+                <!--<button> top </button> -->
+                &copy; כל הזכויות שמורות לשקד
+
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
